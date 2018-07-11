@@ -59,8 +59,8 @@ def feature_extraction(root):
 
 
 if __name__ == '__main__':
-    training_data = 'dataset/training-data'
-    testing_data = 'dataset/testing-data'
+    training_data = '../dataset/training-data'
+    testing_data = '../dataset/testing-data'
 
     # Building word data
     build_data(training_data)
